@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DnD</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+	<header>
+		<div class="logotipo">
+		<img alt="logo" src="images/logo.png">
+		</div>
+		<ul id="nav">
+			<li><a href="index.html" id="active">Home</a></li>
+			<li><a href="adventure.html">Adventure</a></li>
+			<li><a href="races.html">Races</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+		</ul>
+	</header>
+	<section class="main">
+		<div class="slider">
+		<img src="images/slider.jpg">
+		</div>
+		<section class="articles">
+			<article>
+				<h2>¿Why D&D?</h2>
+				<div class="text">
+					<p>While Dungeons and Dragons is definitely the most popular tabletop roleplaying game, it’s not the only one. There are tons of RPGs with different settings and mythologies. There are Star Wars games, games based on tarot cards, and even a Wet Hot American Summer game. All come in varying levels of rule complexity and structure.</p>
+				</div>
+				<div class="image">
+					<img src="images/dice.png" alt="dice">
+				</div>
+				<div class="text-full">
+					<p>Dungeons and Dragons is somewhere in the middle of the spectrum — the rules are simple enough to follow as a beginner, but there’s a very clear structure to work within. Players have room to get creative without feeling paralyzed by infinite choices or bogged down by complicated rules. Unless you’re looking for something extremely specific, I’d recommend starting with D&D and branching out from there once you get the hang of roleplaying.</p>
+				</div>
+			</article>
+			<article>
+				<h2>GETTING STARTED WITH D&D</h2>
+				<div class="image">
+					<img src="images/book.png" alt="book">
+				</div>
+				<div class="text">
+				<p>One of the great things about D&D is that you only really need a copy of the rules, some pencils and paper, a set of dice, and your imagination. Wizards of the Coast put a PDF of the basic rules online for free because they “want to reduce the barrier to entry as much as possible,” according to communications director, Greg Tito. The pared down version of the ruleset cover the core mechanics and math of the game, a step-by-step character creation guide, and information on monsters.</p>
+				<br>
+				<p>D&D famously uses a bunch of weird-looking dice, which some players collect like they’re Pokémon cards. If you’re super into that aspect of the hobby, you can fall down an Etsy wormhole of unique handmade dice sets. (I’ve never been one of those players, but will admit that I backed a Kickstarter to get a set that looks like the bisexual pride flag.) For everyone else, a standard set of polyhedral dice from Amazon works just as well.</p>
+				</div>
+			</article>
+		</section>
+		<aside>
+			<h3>BECOMING THE DUNGEON MASTER</h3>
+			<br>
+			<p>The Dungeon Master (DM for short) refers to the player who acts as narrator, antagonist, and guide to the rest of the players in D&D. (In non-D&D games they’re called the Game Master/GM.) According to Wizards of the Coast brand director Nathan Stewart, rule number one for aspiring DMs is “you don’t have to know all the rules.” In fact, he shared a quote from the creator of Dungeons and Dragons, Gary Gygax.</p>
+			<br>
+			<p>“The secret we should never let the game masters know is that they don’t need any rules.”</p>
+			<img src="images/dm.png" alt="dm">
+		</aside>
+	</section>
+	<footer><a href="#">Copyright © Todos los derechos reservados 2020</a></footer>
+	<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("nav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

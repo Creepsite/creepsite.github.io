@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DnD</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+	<header>
+		<div class="logotipo">
+		<img alt="logo" src="images/logo.png">
+		</div>
+		<ul id="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="adventure.html">Adventure</a></li>
+			<li><a href="races.html" id="active">Races</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+		</ul>
+	</header>
+	<section class="main">
+		<div class="slider">
+		<img src="images/slider-3.jpg" alt="slider-3">
+		</div>
+		<section class="articles">
+			<article>
+				<h2>Dragonborn</h2>
+				<div class="text">
+					<p>Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail.</p>
+					<br>
+					<strong>Racial Traits</strong>
+					<p>+2 Strength, +1 Charisma, Draconic Ancestry, Breath Weapon, Damage Resistance</p>
+				</div>
+				<div class="image">
+					<img src="images/dragonborn.png" alt="dragonborn">
+				</div>
+			</article>
+			<article>
+				<h2>Dwarf</h2>
+				<div class="text">
+					<p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal.</p>
+					<br>
+					<strong>Racial Traits</strong>
+					<p>+2 Constitution, Darkvision, Dwarven Resilience, Dwarven Combat Training, Stonecunning</p>
+				</div>
+				<div class="image">
+					<img src="images/dwarf.png" alt="dwarf">
+				</div>
+			</article>
+			<article>
+				<h2>Tiefling</h2>
+				<div class="text">
+					<p>To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling.</p>
+					<br>
+					<strong>Racial Traits</strong>
+					<p>+2 Charisma, +1 Intelligence, Darkvision, Hellish Resistance, Infernal Legacy</p>
+				</div>
+				<div class="image">
+					<img src="images/tiefling.png" alt="tiefling">
+				</div>
+			</article>
+			<article>
+				<h2>Elf</h2>
+				<div class="text">
+					<p>Elves are a magical people of otherworldly grace, living in the world but not entirely part of it..</p>
+					<br>
+					<strong>Racial Traits</strong>
+					<p>+2 Dexterity, Darkvision, Keen Senses, Fey Ancestry, Trance</p>
+				</div>
+				<div class="image">
+					<img src="images/elf.png" alt="elf">
+				</div>
+			</article>
+		</section>
+		<aside>
+			<h3>Classes</h3>
+			<br>
+			<p>Adventurers are extraordinary people, driven by a thirst for excitement into a life that others would never dare lead. They are heroes, compelled to explore the dark places of the world and take on the challenges that lesser women and men can’t stand against.</p>
+			<br>
+			<p>Class is the primary definition of what your character can do. It’s more than a profession; it’s your character’s calling. Class shapes the way you think about the world and interact with it and your relationship with other people and powers in the multiverse. A fighter, for example, might view the world in pragmatic terms of strategy and maneuvering, and see herself as just a pawn in a much larger game. A cleric, by contrast, might see himself as a willing servant in a god’s unfolding plan or a conflict brewing among various deities. While the fighter has contacts in a mercenary company or army, the cleric might know a number of priests, paladins, and devotees who share his faith.</p>
+			<img src="images/classes.png" alt="classes">
+		</aside>
+	</section>
+	<footer><a href="#">Copyright © Todos los derechos reservados 2020</a></footer>
+	<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("nav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

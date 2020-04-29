@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DnD</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+	<header>
+		<div class="logotipo">
+		<img alt="logo" src="images/logo.png">
+		</div>
+		<ul id="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="adventure.html" id="active">Adventure</a></li>
+			<li><a href="races.html">Races</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+		</ul>
+	</header>
+	<section class="main">
+		<div class="slider">
+		<img src="images/slider-2.jpg" alt="slider-2">
+		</div>
+		<section class="articles">
+			<article>
+				<h2>ADVENTURE TIME</h2>
+				<div class="text">
+					<p>Once you’ve decided on your adventure and have assembled your players (the website Roll 20 has a matchmaking-type service for virtual groups), you’re ready to get started. Assuming you’re not using the pre-made characters in the Starter Set, you’ll probably spend the first session creating characters together, discussing your characters’ relationships to each other and setting the scene for the adventure.</p>
+					
+				</div>
+				<div class="image">
+					<img src="images/beholder.png" alt="beholder">
+				</div>
+				<div class="text-full">
+					<p>I’d also recommend talking about what kind of game you’ll be running. Do you want to run a serious, by-the-book campaign, or is there room to get silly and loose with the rules? Neither option is necessarily better, it’s just a matter of preference, but it’s good to be on the same page with your players about the tone your sessions will take.</p>
+				</div>
+				<div class="image">
+					<img src="images/goblin.png" alt="goblin">
+				</div>
+				<div class="text">
+					<p>When you start running your adventure, you’ll probably be referencing the book a lot and that’s totally okay. No one expects you to have every spell and monster memorized. A Dungeon Master’s Screen can help here. It does double duty since it hides notes and die rolls from the players and has handy references to the stats and rules you’ll use most often while playing.</p>
+				</div>
+			</article>
+			<article>
+				<h2>THE REAL TREASURE IS THE FRIENDS</h2>
+				<div class="text">
+				<p>Playing D&D, like any game, gets easier the more you practice. It can feel awkward getting started, but as long as you have an open, supportive group, that awkwardness goes away quickly. The game is as much about relationships as it is about fighting monsters, so make sure that the people you bring to your table are people you’d be willing to get trapped in a dungeon with.</p>
+				</div>
+				<div class="image">
+					<img src="images/party.png" alt="party">
+				</div>
+				<p>The online community of players and DMs is (for the most part) incredibly supportive and encouraging of new players. They can answer any questions you have, no matter how dumb you think they are. Case in point: the most googled D&D-related question is “are dnd dragons immortal.” (No, they live a long time but they can be killed.) The subreddits r/dnd and r/dndnext are great resources as well..</p>
+				
+			</article>
+		</section>
+		<aside>
+			<h3>DO YOU HAVE TO CREATE A STORY FROM SCRATCH?</h3>
+			<br>
+			<p>As a new DM, it’s usually easier to run a pre-existing adventure rather than immediately come up with your own story. You certainly don’t have to — former Polygon producer and current GM on The Adventure Zone, Griffin McElroy, says that “one of the best starting points is to take something you like and figure out how to D&D-ify it” because the rules are so easy to tailor to what you want to do. However if you’d prefer to start with a pre-written adventure, your options are practically endless.</p>
+			<br>
+			<p>The adventure included in the Starter Set is called Lost Mines of Phandelver and is a good introduction to how stories work in D&D, as well as its settings and lore. Wizards of the Coast also periodically publishes full campaigns that are either stand-alone adventures or part of a series.</p>
+			<img src="images/dice.png" alt="dice">
+		</aside>
+	</section>
+	<footer><a href="#">Copyright © Todos los derechos reservados 2020</a></footer>
+	<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("nav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

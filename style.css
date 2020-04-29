@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	paddign: 0;
+	box-sizing: border-box;
+}
+html{
+	background-image: url("images/back.png");
+	background-color: #111;
+}
+body{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+.logotipo img{
+	width: 100%
+}
+header, .main, footer{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+#nav {
+	text-align:center;
+	background-color:#413E3E;
+	padding: 15px 0px;
+	border-radius: 5px;
+}
+#nav li {
+	display:inline;
+}
+#nav a {
+	text-decoration:none; 
+	padding:0 30px;
+	color: white;
+}
+#nav a:hover{
+	background-color:white;
+	padding: 15px 30px;
+	border-top: solid #CC2326;
+	color:#CC2326;
+}
+#active{
+	background-color:#B1AEAE !important;
+	padding: 15px 30px !important;
+	border-bottom: solid #CC2326 !important;
+	color:#CC2326 !important;
+}
+.slider{
+	height: 300px;
+	margin-bottom: 20px;
+}
+.slider img{
+	width: 100%;
+  	height: 100%;
+ 	object-fit: cover;
+	border-radius: 5px;
+}
+.articles{
+	width: 68.5%; 
+	float:left; 
+	margin-right: 1.5%; 
+}
+article{
+	padding:20px;
+	background-color: #F5F5DC;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.text{
+	width:60%;
+	margin: 20px 0px;
+	display: inline-block;
+	vertical-align:top;
+}
+.image{
+	width: 39%;
+	display: inline-block;
+	margin: 10px 0px;
+}
+.image img{
+	width: 90%;
+  	height: 100%;
+ 	object-fit: cover;
+	padding: 5px;
+	box-sizing: border-box;
+}
+aside img{
+	width: 100%;
+  	height: 100%;
+	margin-top: 10px;
+ 	object-fit: cover;
+}
+aside{
+	width: 30%; 
+	background-color:#F8E2B6;
+	float: left; 
+	padding: 20px;
+	border-radius: 5px;
+	border-top: 8px double #CC2326;
+	border-bottom: 8px double #CC2326;
+	box-sizing: border-box;
+}
+footer{
+	background-color: #CC2326; 
+	color: white; 
+	clear: both; 
+	padding: 10px; 
+	text-align: center; 
+	box-sizing: border-box;
+	font-size: 12px;
+	border-radius: 5px;	
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+.sticky {
+  	position: fixed;
+  	top: 10px;
+	width: 90%;
+	max-width: 1000px;
+	opacity: 0.8;
+}
+
+/*gallery*/
+.row {
+  	display: flex;
+  	flex-wrap: wrap;
+  	padding: 0 4px;
+	width:90%;
+	margin: auto;
+}
+.column {
+  	flex: 25%;
+  	max-width: 25%;
+  	padding: 0 4px;
+}
+
+.column img {
+  	margin-top: 8px;
+  	vertical-align: middle;
+  	width: 100%;
+	border-radius: 5px;
+}
+
+
+
+

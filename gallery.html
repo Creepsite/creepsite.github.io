@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DnD</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+	<header>
+		<div class="logotipo">
+		<img alt="logo" src="images/logo.png">
+		</div>
+		<ul id="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="adventure.html">Adventure</a></li>
+			<li><a href="races.html" >Races</a></li>
+			<li><a href="gallery.html" id="active">Gallery</a></li>
+		</ul>
+	</header>
+	<section class="row">
+		<div class="row"> 
+  <div class="column">
+    <img src="images/pic9.jpg" style="width:100%">
+    <img src="images/slider.jpg" style="width:100%">
+    <img src="images/pic1.jpg" style="width:100%">
+    <img src="images/slider-2.jpg" style="width:100%">
+  </div>
+  <div class="column">
+   	<img src="images/pic5.jpg" style="width:100%">
+    <img src="images/pic2.jpg" style="width:100%">
+    <img src="images/pic3.jpg" style="width:100%">
+    <img src="images/pic4.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="images/pic8.jpg" style="width:100%">
+    <img src="images/pic7.jpg" style="width:100%">
+    <img src="images/pic10.jpg" style="width:100%">
+    <img src="images/pic12.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/pic11.jpg" style="width:100%">
+    <img src="images/pic13.jpg" style="width:100%">
+    <img src="images/pic6.jpg" style="width:100%">
+    <img src="images/pic14.jpg" style="width:100%">
+  </div>
+</div>
+		</section>
+
+	<footer><a href="#">Copyright © Todos los derechos reservados 2020</a></footer>
+	<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("nav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
